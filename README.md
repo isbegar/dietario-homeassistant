@@ -76,3 +76,7 @@ automation:
 - El token da acceso a los menús y a la lista de la compra de **una familia** (no a cuentas ni contraseñas). Se puede revocar en Dietario.
 - Dietario guarda solo el hash del token. Si lo pierdes, genera otro (el anterior deja de valer).
 - Con HTTP en red local el token viaja sin cifrar dentro de tu LAN; si lo expones fuera, usa HTTPS.
+
+## Logo
+
+El icono y el logo están en `custom_components/dietario/brand/` (Home Assistant 2026.3+ los muestra en HACS y en la lista de integraciones).
