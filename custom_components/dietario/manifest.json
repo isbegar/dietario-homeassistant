@@ -1,0 +1,12 @@
+{
+  "domain": "dietario",
+  "name": "Dietario",
+  "codeowners": ["@isbegar"],
+  "config_flow": true,
+  "documentation": "https://github.com/isbegar/dietario-homeassistant",
+  "issue_tracker": "https://github.com/isbegar/dietario-homeassistant/issues",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}

@@ -1,0 +1,62 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Dietario",
+        "description": "In Dietario go to Family → Home Assistant integration and generate a token.",
+        "data": {
+          "url": "Dietario URL (e.g. http://192.168.68.27:3000)",
+          "token": "Token"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Dietario token",
+        "description": "The token is no longer valid. Generate a new one in Dietario.",
+        "data": {
+          "token": "Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to Dietario. Check the URL.",
+      "invalid_auth": "Invalid token.",
+      "invalid_url": "The URL must start with http:// or https://"
+    },
+    "abort": {
+      "already_configured": "This Dietario instance is already added.",
+      "reauth_successful": "Token updated."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "today_lunch": {
+        "name": "Today's lunch"
+      },
+      "today_dinner": {
+        "name": "Today's dinner"
+      },
+      "tomorrow_lunch": {
+        "name": "Tomorrow's lunch"
+      },
+      "tomorrow_dinner": {
+        "name": "Tomorrow's dinner"
+      },
+      "prep_tomorrow": {
+        "name": "To prepare today (tomorrow)"
+      },
+      "shopping_pending": {
+        "name": "Shopping pending"
+      }
+    },
+    "calendar": {
+      "meals": {
+        "name": "Menu"
+      }
+    },
+    "todo": {
+      "shopping": {
+        "name": "Shopping list"
+      }
+    }
+  }
+}
